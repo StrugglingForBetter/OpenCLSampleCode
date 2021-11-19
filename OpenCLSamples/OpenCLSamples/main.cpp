@@ -134,6 +134,7 @@ void Cleanup(cl_context context, cl_command_queue commandQueue, cl_program progr
 		}
 	}
 
+
 	if (commandQueue != 0) {
 		clReleaseCommandQueue(commandQueue);
 	}
